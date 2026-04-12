@@ -130,4 +130,3 @@ Se implementó un filtro para detectar incoherencias en el dataset, asegurando q
 
 ### Modelo
 Se utilizó un modelo de tipo **Decision Tree**, limitando su profundidad (`max_depth=4`).
-```
