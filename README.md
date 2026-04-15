@@ -116,17 +116,17 @@ El modelo devuelve un área recomendada basada en los patrones aprendidos.
 ## Entrega Semana 1 
 
 ### Generación del dataset
-Se generaron combinaciones automáticas de las variables **nivel**, **interés** y **tiempo** utilizando la librería `itertools`, lo que permitió crear un dataset más amplio.
+El dataset se carga desde un archivo CSV normalizando los valores (nivel, interes, area_recomendada) para evitar diferencias por espacios o mayusculas.
 
-### Reglas de recomendación
-Se definieron reglas mediante un diccionario para asignar el área recomendada según el perfil del usuario, permitiendo asi generar datos coherentes para el entrenamiento del modelo.
+### Reglas
+Se definio un diccionario (RUTAS_POR_INTERES) que contiene cada interes, las áreas posibles y sus niveles/rangos esperados.
+Estas reglas se usan para validar las filas del CSV y para definir que area_recomendada corresponde al perfil ingresado (nivel + interes + experiencia).
 
-### Validación de datos
-Se implementó un filtro para detectar incoherencias en el dataset, asegurando que perfiles de nivel principiante no sean asociados con áreas avanzadas.
+### Validación
+Se valida que el CSV cuente con las columnas nivel, interes, experiencia, area_recomendada.
+Se recorre el dataset para identificar posibles incoherencias como nivel invalido, interes invalido, experiencia fuera del rango definido para el nivel, o area_recomendada que no hacer parte del interés indicado. 
+Si se presentan incoherencias se almacenan y se muestran al usuario
 
-### Transformación de datos
-- Se utilizó `map()` para convertir la variable **nivel** respetando su orden lógico.
-- Se utilizó `LabelEncoder` para las variables categóricas sin necesidad de un orden (**interés** y **tiempo**).
-
-### Modelo
-Se utilizó un modelo de tipo **Decision Tree**, limitando su profundidad (`max_depth=4`).
+###Transformación de datos
+Se utiliza OrdinalEncoder para nivel para mantener el orden logico (principiante < intermedio < avanzado).
+Se utiliza LabelEncoder para interes y area_recomendada que no requieren un orden.
