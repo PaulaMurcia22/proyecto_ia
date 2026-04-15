@@ -1,0 +1,41 @@
+nivel,interes,experiencia,area_recomendada
+principiante,diseño,0,Fundamentos de diseño
+principiante,diseño,2,Diseño UI
+intermedio,diseño,3,Diseño UX
+intermedio,diseño,5,Sistemas de diseño
+avanzado,diseño,6,Dirección de diseño
+principiante,frontend,0,Fundamentos de HTML y CSS
+principiante,frontend,2,JavaScript y componentes UI
+intermedio,frontend,3,Integración con APIs
+intermedio,frontend,5,Arquitectura frontend
+avanzado,frontend,6,Microfrontends
+principiante,backend,0,Fundamentos de backend
+principiante,backend,2,APIs REST
+intermedio,backend,3,Integración con bases de datos
+intermedio,backend,5,Arquitectura de servicios
+avanzado,backend,6,Sistemas distribuidos
+principiante,datos,0,Fundamentos de datos
+principiante,datos,2,Análisis de datos
+intermedio,datos,3,Ciencia de datos
+intermedio,datos,5,Ingeniería de datos
+avanzado,datos,6,Liderazgo analítico
+principiante,inteligencia artificial,0,Fundamentos de IA
+principiante,inteligencia artificial,2,Modelos clásicos de machine learning
+intermedio,inteligencia artificial,3,Deep Learning aplicado
+intermedio,inteligencia artificial,5,MLOps
+avanzado,inteligencia artificial,6,Arquitectura de soluciones de IA
+principiante,seguridad,0,Seguridad básica
+principiante,seguridad,2,Hardening de aplicaciones
+intermedio,seguridad,3,Pentesting web
+intermedio,seguridad,5,Automatización de seguridad
+avanzado,seguridad,6,Arquitectura de seguridad
+principiante,devops,0,Automatización inicial
+principiante,devops,2,Integración continua
+intermedio,devops,3,Entrega continua
+intermedio,devops,5,Infraestructura como código
+avanzado,devops,6,Plataforma cloud
+principiante,móvil,0,Fundamentos móviles
+principiante,móvil,2,Interfaces móviles
+intermedio,móvil,3,Consumo de APIs móviles
+intermedio,móvil,5,Arquitectura móvil
+avanzado,móvil,6,Publicación y escalado móvil
