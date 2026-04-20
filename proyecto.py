@@ -1,4 +1,5 @@
 import pathlib
+import random
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
@@ -7,6 +8,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 RAIZ_PROYECTO = pathlib.Path(__file__).parent
 ARCHIVO_DATOS_PREDETERMINADO = RAIZ_PROYECTO / "data" / "datos_prueba.csv"
+REGENERAR_CSV = False
 
 # Opciones de intereses disponibles.
 OPCIONES_INTERES = {
@@ -99,6 +101,50 @@ RUTAS_POR_INTERES = {
     ],
 }
 
+def generar_datos_prueba(total_filas: int = 400, semilla: int = 42) -> pd.DataFrame:
+    rng = random.Random(semilla)
+
+    rutas = [
+        (interes, ruta)
+        for interes, rutas_interes in RUTAS_POR_INTERES.items()
+        for ruta in rutas_interes
+    ]
+
+    filas_por_ruta = max(1, total_filas // len(rutas))
+    filas = []
+
+    for interes, ruta in rutas:
+        nivel = ruta["nivel"]
+        minimo = ruta["min"]
+        maximo = ruta["max"]
+
+        rango_minimo, rango_maximo = RANGOS_EXPERIENCIA_POR_NIVEL[nivel]
+        minimo = max(minimo, rango_minimo)
+
+        if maximo is None:
+            maximo = minimo + 3
+
+        if rango_maximo is not None:
+            maximo = min(maximo, rango_maximo)
+
+        if maximo < minimo:
+            maximo = minimo
+
+        for _ in range(filas_por_ruta):
+            experiencia = round(rng.uniform(minimo, maximo), 1)
+            filas.append(
+                {
+                    "nivel": nivel,
+                    "interes": interes,
+                    "experiencia": experiencia,
+                    "area_recomendada": ruta["area"],
+                }
+            )
+
+    datos = pd.DataFrame(filas)
+    datos = datos.sample(frac=1, random_state=semilla).reset_index(drop=True)
+    return datos
+
 
 # mostrar el menu y pedir una opcion valida
 def pedir_opcion(titulo: str, opciones: dict[str, str]) -> str:
@@ -166,6 +212,12 @@ def main() -> None:
     ruta_csv = ARCHIVO_DATOS_PREDETERMINADO
     print(f"Cargando datos desde: {ruta_csv}")
 
+    if REGENERAR_CSV or not ruta_csv.exists():
+        total_rutas = sum(len(rutas) for rutas in RUTAS_POR_INTERES.values())
+        total_filas = total_rutas * 10
+        datos_generados = generar_datos_prueba(total_filas=total_filas, semilla=42)
+        datos_generados.to_csv(ruta_csv, index=False, encoding="utf-8-sig")
+        print(f"CSV generado automaticamente con {len(datos_generados)} filas.")
     # Si el archivo no existe que se termina la ejecucion
     if not ruta_csv.exists():
         print(f"No se encontró el archivo CSV: {ruta_csv}")
