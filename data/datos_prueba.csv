@@ -1,41 +1,401 @@
-nivel,interes,experiencia,area_recomendada
-principiante,diseño,0,Fundamentos de diseño
-principiante,diseño,2,Diseño UI
-intermedio,diseño,3,Diseño UX
-intermedio,diseño,5,Sistemas de diseño
-avanzado,diseño,6,Dirección de diseño
-principiante,frontend,0,Fundamentos de HTML y CSS
-principiante,frontend,2,JavaScript y componentes UI
-intermedio,frontend,3,Integración con APIs
-intermedio,frontend,5,Arquitectura frontend
-avanzado,frontend,6,Microfrontends
-principiante,backend,0,Fundamentos de backend
-principiante,backend,2,APIs REST
-intermedio,backend,3,Integración con bases de datos
-intermedio,backend,5,Arquitectura de servicios
-avanzado,backend,6,Sistemas distribuidos
-principiante,datos,0,Fundamentos de datos
-principiante,datos,2,Análisis de datos
-intermedio,datos,3,Ciencia de datos
-intermedio,datos,5,Ingeniería de datos
-avanzado,datos,6,Liderazgo analítico
-principiante,inteligencia artificial,0,Fundamentos de IA
-principiante,inteligencia artificial,2,Modelos clásicos de machine learning
-intermedio,inteligencia artificial,3,Deep Learning aplicado
-intermedio,inteligencia artificial,5,MLOps
-avanzado,inteligencia artificial,6,Arquitectura de soluciones de IA
-principiante,seguridad,0,Seguridad básica
-principiante,seguridad,2,Hardening de aplicaciones
-intermedio,seguridad,3,Pentesting web
-intermedio,seguridad,5,Automatización de seguridad
-avanzado,seguridad,6,Arquitectura de seguridad
-principiante,devops,0,Automatización inicial
-principiante,devops,2,Integración continua
-intermedio,devops,3,Entrega continua
-intermedio,devops,5,Infraestructura como código
-avanzado,devops,6,Plataforma cloud
-principiante,móvil,0,Fundamentos móviles
-principiante,móvil,2,Interfaces móviles
-intermedio,móvil,3,Consumo de APIs móviles
-intermedio,móvil,5,Arquitectura móvil
-avanzado,móvil,6,Publicación y escalado móvil
+﻿nivel,interes,experiencia,area_recomendada
+avanzado,datos,6.0,Liderazgo analítico
+intermedio,seguridad,3.0,Pentesting web
+intermedio,diseño,4.5,Sistemas de diseño
+avanzado,datos,6.0,Liderazgo analítico
+intermedio,frontend,4.5,Arquitectura frontend
+intermedio,frontend,3.5,Integración con APIs
+intermedio,devops,3.5,Entrega continua
+intermedio,frontend,4.5,Arquitectura frontend
+principiante,seguridad,0.0,Seguridad básica
+principiante,backend,0.5,Fundamentos de backend
+principiante,diseño,1.0,Diseño UI
+principiante,móvil,1.0,Interfaces móviles
+avanzado,diseño,10.0,Dirección de diseño
+principiante,frontend,1.5,JavaScript y componentes UI
+principiante,backend,1.5,APIs REST
+avanzado,diseño,5.0,Dirección de diseño
+principiante,seguridad,2.0,Hardening de aplicaciones
+intermedio,móvil,4.0,Arquitectura móvil
+principiante,inteligencia artificial,1.5,Modelos clásicos de machine learning
+avanzado,móvil,5.0,Publicación y escalado móvil
+principiante,frontend,2.0,JavaScript y componentes UI
+principiante,diseño,1.5,Diseño UI
+avanzado,móvil,7.0,Publicación y escalado móvil
+principiante,seguridad,1.0,Hardening de aplicaciones
+principiante,diseño,0.0,Fundamentos de diseño
+avanzado,móvil,8.0,Publicación y escalado móvil
+avanzado,frontend,8.0,Microfrontends
+principiante,inteligencia artificial,0.5,Fundamentos de IA
+avanzado,inteligencia artificial,10.0,Arquitectura de soluciones de IA
+avanzado,frontend,6.0,Microfrontends
+avanzado,móvil,8.0,Publicación y escalado móvil
+intermedio,datos,3.5,Ciencia de datos
+avanzado,inteligencia artificial,8.0,Arquitectura de soluciones de IA
+avanzado,diseño,10.0,Dirección de diseño
+principiante,inteligencia artificial,2.0,Modelos clásicos de machine learning
+avanzado,frontend,10.0,Microfrontends
+avanzado,frontend,8.0,Microfrontends
+avanzado,devops,5.0,Plataforma cloud
+intermedio,backend,5.0,Arquitectura de servicios
+intermedio,backend,3.0,Integración con bases de datos
+intermedio,móvil,4.5,Arquitectura móvil
+avanzado,diseño,8.0,Dirección de diseño
+principiante,frontend,2.0,JavaScript y componentes UI
+intermedio,diseño,3.5,Diseño UX
+intermedio,frontend,3.0,Integración con APIs
+intermedio,móvil,5.0,Arquitectura móvil
+intermedio,backend,4.0,Arquitectura de servicios
+principiante,datos,1.0,Análisis de datos
+intermedio,diseño,3.0,Diseño UX
+avanzado,backend,10.0,Sistemas distribuidos
+avanzado,diseño,6.0,Dirección de diseño
+principiante,devops,1.5,Integración continua
+intermedio,devops,5.0,Infraestructura como código
+principiante,frontend,1.0,JavaScript y componentes UI
+intermedio,móvil,3.5,Consumo de APIs móviles
+intermedio,diseño,5.0,Sistemas de diseño
+principiante,inteligencia artificial,0.5,Fundamentos de IA
+avanzado,backend,10.0,Sistemas distribuidos
+intermedio,diseño,4.0,Sistemas de diseño
+intermedio,backend,4.5,Arquitectura de servicios
+principiante,backend,0.5,Fundamentos de backend
+intermedio,seguridad,5.0,Automatización de seguridad
+avanzado,inteligencia artificial,6.0,Arquitectura de soluciones de IA
+principiante,frontend,2.0,JavaScript y componentes UI
+avanzado,frontend,5.0,Microfrontends
+intermedio,diseño,4.0,Sistemas de diseño
+avanzado,devops,10.0,Plataforma cloud
+principiante,seguridad,0.5,Seguridad básica
+avanzado,móvil,8.0,Publicación y escalado móvil
+principiante,frontend,1.5,JavaScript y componentes UI
+principiante,devops,1.5,Integración continua
+intermedio,backend,3.0,Integración con bases de datos
+principiante,diseño,0.5,Fundamentos de diseño
+avanzado,diseño,6.0,Dirección de diseño
+avanzado,móvil,6.0,Publicación y escalado móvil
+intermedio,inteligencia artificial,4.5,MLOps
+principiante,inteligencia artificial,1.0,Modelos clásicos de machine learning
+principiante,móvil,2.0,Interfaces móviles
+principiante,datos,0.0,Fundamentos de datos
+intermedio,seguridad,4.5,Automatización de seguridad
+principiante,diseño,0.0,Fundamentos de diseño
+principiante,diseño,2.0,Diseño UI
+intermedio,datos,5.0,Ingeniería de datos
+avanzado,inteligencia artificial,5.0,Arquitectura de soluciones de IA
+principiante,seguridad,1.5,Hardening de aplicaciones
+principiante,frontend,0.0,Fundamentos de HTML y CSS
+intermedio,inteligencia artificial,5.0,MLOps
+avanzado,seguridad,7.0,Arquitectura de seguridad
+avanzado,frontend,7.0,Microfrontends
+intermedio,frontend,4.0,Arquitectura frontend
+principiante,inteligencia artificial,2.0,Modelos clásicos de machine learning
+intermedio,devops,4.5,Infraestructura como código
+avanzado,frontend,10.0,Microfrontends
+principiante,inteligencia artificial,0.0,Fundamentos de IA
+principiante,datos,0.5,Fundamentos de datos
+principiante,devops,0.5,Automatización inicial
+intermedio,móvil,3.5,Consumo de APIs móviles
+intermedio,móvil,4.5,Arquitectura móvil
+intermedio,inteligencia artificial,3.5,Deep Learning aplicado
+principiante,frontend,1.5,JavaScript y componentes UI
+intermedio,inteligencia artificial,5.0,MLOps
+avanzado,frontend,7.0,Microfrontends
+principiante,diseño,2.0,Diseño UI
+principiante,frontend,0.5,Fundamentos de HTML y CSS
+intermedio,backend,4.5,Arquitectura de servicios
+principiante,diseño,0.5,Fundamentos de diseño
+principiante,diseño,2.0,Diseño UI
+principiante,backend,2.0,APIs REST
+principiante,móvil,0.0,Fundamentos móviles
+avanzado,devops,8.0,Plataforma cloud
+principiante,backend,1.0,APIs REST
+avanzado,móvil,5.0,Publicación y escalado móvil
+intermedio,seguridad,5.0,Automatización de seguridad
+avanzado,móvil,5.0,Publicación y escalado móvil
+avanzado,seguridad,5.0,Arquitectura de seguridad
+principiante,frontend,0.0,Fundamentos de HTML y CSS
+principiante,frontend,2.0,JavaScript y componentes UI
+intermedio,seguridad,3.5,Pentesting web
+avanzado,seguridad,8.0,Arquitectura de seguridad
+intermedio,seguridad,3.0,Pentesting web
+intermedio,backend,5.0,Arquitectura de servicios
+avanzado,frontend,7.0,Microfrontends
+principiante,diseño,2.0,Diseño UI
+avanzado,devops,7.0,Plataforma cloud
+intermedio,diseño,3.5,Diseño UX
+principiante,datos,0.0,Fundamentos de datos
+avanzado,devops,8.0,Plataforma cloud
+intermedio,devops,4.0,Infraestructura como código
+avanzado,backend,7.0,Sistemas distribuidos
+intermedio,inteligencia artificial,4.5,MLOps
+principiante,devops,0.0,Automatización inicial
+intermedio,backend,3.5,Integración con bases de datos
+avanzado,inteligencia artificial,7.0,Arquitectura de soluciones de IA
+principiante,datos,0.0,Fundamentos de datos
+avanzado,frontend,10.0,Microfrontends
+intermedio,datos,3.5,Ciencia de datos
+principiante,inteligencia artificial,1.5,Modelos clásicos de machine learning
+principiante,seguridad,0.0,Seguridad básica
+avanzado,datos,10.0,Liderazgo analítico
+avanzado,seguridad,10.0,Arquitectura de seguridad
+intermedio,diseño,5.0,Sistemas de diseño
+principiante,backend,2.0,APIs REST
+intermedio,seguridad,4.5,Automatización de seguridad
+intermedio,backend,4.5,Arquitectura de servicios
+intermedio,datos,4.0,Ingeniería de datos
+intermedio,seguridad,3.5,Pentesting web
+avanzado,diseño,10.0,Dirección de diseño
+avanzado,frontend,7.0,Microfrontends
+avanzado,backend,6.0,Sistemas distribuidos
+principiante,móvil,1.0,Interfaces móviles
+principiante,diseño,0.5,Fundamentos de diseño
+intermedio,devops,4.0,Infraestructura como código
+principiante,seguridad,1.5,Hardening de aplicaciones
+intermedio,backend,4.0,Arquitectura de servicios
+principiante,diseño,1.0,Diseño UI
+intermedio,datos,3.0,Ciencia de datos
+avanzado,frontend,5.0,Microfrontends
+intermedio,frontend,3.0,Integración con APIs
+principiante,devops,1.0,Integración continua
+avanzado,móvil,10.0,Publicación y escalado móvil
+intermedio,móvil,3.5,Consumo de APIs móviles
+avanzado,datos,6.0,Liderazgo analítico
+intermedio,seguridad,4.0,Automatización de seguridad
+avanzado,backend,7.0,Sistemas distribuidos
+avanzado,devops,10.0,Plataforma cloud
+intermedio,frontend,4.0,Arquitectura frontend
+intermedio,móvil,4.0,Arquitectura móvil
+avanzado,backend,6.0,Sistemas distribuidos
+intermedio,backend,3.5,Integración con bases de datos
+principiante,inteligencia artificial,1.0,Modelos clásicos de machine learning
+intermedio,frontend,4.5,Arquitectura frontend
+principiante,frontend,1.0,JavaScript y componentes UI
+principiante,backend,0.0,Fundamentos de backend
+intermedio,frontend,5.0,Arquitectura frontend
+intermedio,backend,3.0,Integración con bases de datos
+intermedio,devops,3.0,Entrega continua
+intermedio,frontend,5.0,Arquitectura frontend
+intermedio,inteligencia artificial,3.5,Deep Learning aplicado
+principiante,frontend,1.0,JavaScript y componentes UI
+intermedio,diseño,3.0,Diseño UX
+intermedio,diseño,5.0,Sistemas de diseño
+intermedio,backend,3.5,Integración con bases de datos
+principiante,backend,0.0,Fundamentos de backend
+principiante,datos,1.0,Análisis de datos
+principiante,frontend,0.5,Fundamentos de HTML y CSS
+intermedio,datos,4.0,Ingeniería de datos
+principiante,devops,2.0,Integración continua
+avanzado,datos,10.0,Liderazgo analítico
+principiante,devops,1.0,Integración continua
+intermedio,datos,3.5,Ciencia de datos
+principiante,backend,0.5,Fundamentos de backend
+intermedio,backend,3.5,Integración con bases de datos
+intermedio,móvil,3.0,Consumo de APIs móviles
+intermedio,frontend,3.5,Integración con APIs
+intermedio,devops,4.5,Infraestructura como código
+avanzado,devops,5.0,Plataforma cloud
+intermedio,devops,5.0,Infraestructura como código
+avanzado,devops,10.0,Plataforma cloud
+intermedio,devops,4.5,Infraestructura como código
+avanzado,seguridad,7.0,Arquitectura de seguridad
+principiante,datos,1.0,Análisis de datos
+intermedio,datos,5.0,Ingeniería de datos
+intermedio,seguridad,3.5,Pentesting web
+avanzado,datos,7.0,Liderazgo analítico
+intermedio,seguridad,3.0,Pentesting web
+principiante,backend,1.0,APIs REST
+intermedio,diseño,5.0,Sistemas de diseño
+principiante,diseño,1.0,Diseño UI
+intermedio,devops,3.0,Entrega continua
+principiante,datos,1.5,Análisis de datos
+principiante,inteligencia artificial,0.0,Fundamentos de IA
+avanzado,frontend,8.0,Microfrontends
+principiante,datos,0.5,Fundamentos de datos
+intermedio,devops,3.0,Entrega continua
+avanzado,seguridad,6.0,Arquitectura de seguridad
+avanzado,frontend,10.0,Microfrontends
+principiante,móvil,2.0,Interfaces móviles
+principiante,seguridad,2.0,Hardening de aplicaciones
+intermedio,móvil,5.0,Arquitectura móvil
+intermedio,seguridad,4.0,Automatización de seguridad
+principiante,móvil,1.0,Interfaces móviles
+avanzado,backend,6.0,Sistemas distribuidos
+avanzado,inteligencia artificial,6.0,Arquitectura de soluciones de IA
+principiante,backend,2.0,APIs REST
+intermedio,backend,4.5,Arquitectura de servicios
+intermedio,datos,4.5,Ingeniería de datos
+intermedio,datos,4.0,Ingeniería de datos
+avanzado,móvil,7.0,Publicación y escalado móvil
+principiante,diseño,0.0,Fundamentos de diseño
+intermedio,datos,5.0,Ingeniería de datos
+avanzado,frontend,8.0,Microfrontends
+principiante,inteligencia artificial,2.0,Modelos clásicos de machine learning
+intermedio,inteligencia artificial,3.0,Deep Learning aplicado
+intermedio,diseño,3.5,Diseño UX
+principiante,backend,0.0,Fundamentos de backend
+principiante,móvil,0.0,Fundamentos móviles
+principiante,inteligencia artificial,0.5,Fundamentos de IA
+principiante,móvil,0.5,Fundamentos móviles
+intermedio,móvil,4.0,Arquitectura móvil
+avanzado,devops,8.0,Plataforma cloud
+intermedio,móvil,4.5,Arquitectura móvil
+principiante,backend,0.5,Fundamentos de backend
+principiante,frontend,1.5,JavaScript y componentes UI
+principiante,devops,2.0,Integración continua
+intermedio,diseño,4.0,Sistemas de diseño
+intermedio,frontend,3.0,Integración con APIs
+avanzado,móvil,6.0,Publicación y escalado móvil
+avanzado,frontend,6.0,Microfrontends
+intermedio,inteligencia artificial,5.0,MLOps
+avanzado,seguridad,5.0,Arquitectura de seguridad
+principiante,backend,1.5,APIs REST
+intermedio,inteligencia artificial,4.5,MLOps
+principiante,datos,1.5,Análisis de datos
+intermedio,seguridad,4.5,Automatización de seguridad
+avanzado,diseño,6.0,Dirección de diseño
+principiante,móvil,2.0,Interfaces móviles
+principiante,frontend,0.5,Fundamentos de HTML y CSS
+intermedio,frontend,3.5,Integración con APIs
+intermedio,inteligencia artificial,4.0,MLOps
+principiante,datos,1.5,Análisis de datos
+intermedio,backend,5.0,Arquitectura de servicios
+principiante,diseño,1.5,Diseño UI
+intermedio,diseño,4.5,Sistemas de diseño
+intermedio,diseño,4.0,Sistemas de diseño
+avanzado,backend,8.0,Sistemas distribuidos
+intermedio,backend,3.0,Integración con bases de datos
+principiante,devops,1.0,Integración continua
+principiante,seguridad,1.0,Hardening de aplicaciones
+principiante,inteligencia artificial,0.0,Fundamentos de IA
+intermedio,frontend,4.5,Arquitectura frontend
+avanzado,diseño,7.0,Dirección de diseño
+intermedio,inteligencia artificial,3.5,Deep Learning aplicado
+avanzado,seguridad,6.0,Arquitectura de seguridad
+avanzado,seguridad,8.0,Arquitectura de seguridad
+principiante,datos,0.5,Fundamentos de datos
+avanzado,diseño,5.0,Dirección de diseño
+principiante,devops,0.0,Automatización inicial
+avanzado,datos,5.0,Liderazgo analítico
+avanzado,inteligencia artificial,6.0,Arquitectura de soluciones de IA
+intermedio,devops,4.0,Infraestructura como código
+principiante,diseño,0.5,Fundamentos de diseño
+avanzado,inteligencia artificial,7.0,Arquitectura de soluciones de IA
+principiante,móvil,0.5,Fundamentos móviles
+avanzado,frontend,5.0,Microfrontends
+principiante,inteligencia artificial,1.0,Modelos clásicos de machine learning
+avanzado,devops,5.0,Plataforma cloud
+avanzado,datos,7.0,Liderazgo analítico
+avanzado,backend,8.0,Sistemas distribuidos
+intermedio,frontend,5.0,Arquitectura frontend
+avanzado,datos,8.0,Liderazgo analítico
+principiante,frontend,0.0,Fundamentos de HTML y CSS
+avanzado,diseño,6.0,Dirección de diseño
+intermedio,diseño,4.5,Sistemas de diseño
+principiante,seguridad,0.0,Seguridad básica
+intermedio,datos,4.5,Ingeniería de datos
+principiante,móvil,0.0,Fundamentos móviles
+intermedio,diseño,3.5,Diseño UX
+principiante,devops,0.0,Automatización inicial
+principiante,inteligencia artificial,1.5,Modelos clásicos de machine learning
+avanzado,inteligencia artificial,8.0,Arquitectura de soluciones de IA
+intermedio,seguridad,4.0,Automatización de seguridad
+avanzado,backend,5.0,Sistemas distribuidos
+intermedio,móvil,3.0,Consumo de APIs móviles
+principiante,backend,2.0,APIs REST
+principiante,frontend,0.0,Fundamentos de HTML y CSS
+principiante,backend,1.5,APIs REST
+principiante,backend,1.0,APIs REST
+principiante,diseño,1.0,Diseño UI
+principiante,frontend,0.5,Fundamentos de HTML y CSS
+avanzado,seguridad,6.0,Arquitectura de seguridad
+principiante,diseño,1.5,Diseño UI
+intermedio,backend,5.0,Arquitectura de servicios
+avanzado,diseño,5.0,Dirección de diseño
+principiante,móvil,1.5,Interfaces móviles
+principiante,devops,2.0,Integración continua
+avanzado,datos,8.0,Liderazgo analítico
+principiante,seguridad,2.0,Hardening de aplicaciones
+avanzado,devops,7.0,Plataforma cloud
+intermedio,inteligencia artificial,3.0,Deep Learning aplicado
+avanzado,datos,5.0,Liderazgo analítico
+avanzado,datos,7.0,Liderazgo analítico
+avanzado,seguridad,5.0,Arquitectura de seguridad
+principiante,móvil,1.5,Interfaces móviles
+avanzado,inteligencia artificial,5.0,Arquitectura de soluciones de IA
+avanzado,móvil,6.0,Publicación y escalado móvil
+principiante,móvil,1.5,Interfaces móviles
+avanzado,seguridad,7.0,Arquitectura de seguridad
+principiante,seguridad,0.5,Seguridad básica
+intermedio,datos,4.5,Ingeniería de datos
+avanzado,backend,5.0,Sistemas distribuidos
+avanzado,diseño,5.0,Dirección de diseño
+avanzado,datos,10.0,Liderazgo analítico
+intermedio,datos,3.0,Ciencia de datos
+avanzado,seguridad,10.0,Arquitectura de seguridad
+avanzado,inteligencia artificial,8.0,Arquitectura de soluciones de IA
+avanzado,frontend,6.0,Microfrontends
+avanzado,diseño,8.0,Dirección de diseño
+principiante,diseño,0.0,Fundamentos de diseño
+avanzado,diseño,7.0,Dirección de diseño
+intermedio,frontend,3.0,Integración con APIs
+avanzado,datos,5.0,Liderazgo analítico
+intermedio,diseño,4.5,Sistemas de diseño
+avanzado,inteligencia artificial,10.0,Arquitectura de soluciones de IA
+intermedio,frontend,4.0,Arquitectura frontend
+intermedio,devops,5.0,Infraestructura como código
+avanzado,diseño,8.0,Dirección de diseño
+avanzado,devops,6.0,Plataforma cloud
+avanzado,inteligencia artificial,10.0,Arquitectura de soluciones de IA
+intermedio,inteligencia artificial,4.0,MLOps
+principiante,diseño,1.5,Diseño UI
+principiante,devops,0.5,Automatización inicial
+intermedio,frontend,4.0,Arquitectura frontend
+principiante,seguridad,1.0,Hardening de aplicaciones
+avanzado,backend,7.0,Sistemas distribuidos
+intermedio,devops,3.5,Entrega continua
+avanzado,móvil,7.0,Publicación y escalado móvil
+principiante,backend,1.5,APIs REST
+avanzado,seguridad,8.0,Arquitectura de seguridad
+intermedio,móvil,5.0,Arquitectura móvil
+principiante,devops,1.5,Integración continua
+intermedio,inteligencia artificial,4.0,MLOps
+avanzado,diseño,8.0,Dirección de diseño
+avanzado,diseño,7.0,Dirección de diseño
+avanzado,backend,10.0,Sistemas distribuidos
+principiante,datos,2.0,Análisis de datos
+avanzado,móvil,10.0,Publicación y escalado móvil
+principiante,datos,2.0,Análisis de datos
+avanzado,backend,8.0,Sistemas distribuidos
+avanzado,diseño,10.0,Dirección de diseño
+avanzado,diseño,7.0,Dirección de diseño
+avanzado,devops,6.0,Plataforma cloud
+intermedio,inteligencia artificial,3.0,Deep Learning aplicado
+avanzado,inteligencia artificial,5.0,Arquitectura de soluciones de IA
+intermedio,diseño,3.0,Diseño UX
+principiante,devops,0.5,Automatización inicial
+avanzado,backend,5.0,Sistemas distribuidos
+principiante,seguridad,1.5,Hardening de aplicaciones
+intermedio,datos,3.0,Ciencia de datos
+intermedio,seguridad,5.0,Automatización de seguridad
+avanzado,devops,6.0,Plataforma cloud
+avanzado,inteligencia artificial,7.0,Arquitectura de soluciones de IA
+avanzado,seguridad,10.0,Arquitectura de seguridad
+intermedio,backend,4.0,Arquitectura de servicios
+principiante,backend,1.0,APIs REST
+intermedio,backend,4.0,Arquitectura de servicios
+principiante,móvil,0.5,Fundamentos móviles
+intermedio,frontend,5.0,Arquitectura frontend
+intermedio,móvil,3.0,Consumo de APIs móviles
+intermedio,frontend,3.5,Integración con APIs
+intermedio,devops,3.5,Entrega continua
+avanzado,datos,8.0,Liderazgo analítico
+principiante,backend,0.0,Fundamentos de backend
+avanzado,móvil,10.0,Publicación y escalado móvil
+intermedio,diseño,3.0,Diseño UX
+principiante,datos,2.0,Análisis de datos
+principiante,frontend,1.0,JavaScript y componentes UI
+avanzado,frontend,6.0,Microfrontends
+principiante,seguridad,0.5,Seguridad básica
+avanzado,devops,7.0,Plataforma cloud
+avanzado,frontend,5.0,Microfrontends
