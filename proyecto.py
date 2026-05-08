@@ -1,5 +1,6 @@
 import pathlib
 import pandas as pd
+import pickle
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
 from sklearn.tree import DecisionTreeClassifier
@@ -552,6 +553,10 @@ def main() -> None:
 
     modelo = DecisionTreeClassifier(max_depth=6, random_state=42)
     modelo.fit(X_train, y_train)
+
+    # se guarda el modelo
+    with open("modelo.pkl", "wb") as f:
+        pickle.dump((modelo, le_area, columnas_caracteristicas), f)
 
     # -----------------------------------------------------------------------------
     # ENTRADA
